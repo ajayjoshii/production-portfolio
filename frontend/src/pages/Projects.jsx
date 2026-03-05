@@ -2,23 +2,23 @@ import { motion } from "framer-motion";
 
 const projects = [
   {
-    title: "Autonomous Robotics Platform",
+    title: "Cybersecurity Projects",
     description:
-      "An intelligent ROS-powered autonomous robot capable of navigation, object detection, manipulation, and voice-controlled interaction using computer vision and deep learning.",
+      "A collection of hands-on cybersecurity projects focused on network defense, vulnerability assessment, privacy research, and malware analysis. These projects demonstrate practical experience in identifying security risks, building defensive tools, and understanding real-world attack simulations.",
     image:
       "https://images.unsplash.com/photo-1581092580497-e0d23cbdf1dc?q=80&w=1200",
     tech: ["ROS2", "Python", "OpenCV", "TensorFlow", "SLAM"],
-    demo: "#",
+    demo: "/projects/cybersecurity-project",
     code: "#",
   },
   {
-    title: "Smart IoT Monitoring System",
+    title: "IOT and Robotics Projects",
     description:
-      "End-to-end IoT solution integrating sensors, microcontrollers, Raspberry Pi, and cloud dashboards for real-time monitoring and predictive analytics.",
+      "Passionate about building intelligent real-world solutions, these IoT & Robotics projects focus on automation, smart sensing, and connected systems. From wildlife intrusion detection and assistive smart devices to internet-enabled home security solutions, each project combines hardware integration with software intelligence to solve practical problems efficiently and innovatively.",
     image:
       "https://i.ytimg.com/vi/OL7TNx9RquE/maxresdefault.jpg",
     tech: ["IoT", "Raspberry Pi", "MQTT", "Cloud", "ML"],
-    demo: "#",
+    demo: "/projects/iot-robotics-project",
     code: "#",
   },
   {
@@ -102,7 +102,7 @@ const Projects = () => {
                   {project.title}
                 </h3>
 
-                <p className="text-gray-400 text-sm mb-4 leading-relaxed">
+                <p className="text-gray-400 text-justify text-sm mb-4 leading-relaxed">
                   {project.description}
                 </p>
 
@@ -147,7 +147,7 @@ const Projects = () => {
           className="text-center mt-14"
         >
           <a
-            href="#"
+            href="/projects"
             className="inline-flex items-center gap-2 px-6 py-3 rounded-lg border border-violet-500 text-violet-400 hover:bg-violet-500/10 transition"
           >
             View More Projects →
